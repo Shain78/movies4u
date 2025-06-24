@@ -1,0 +1,81 @@
+
+body {
+  margin: 0;
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffcc00;
+  letter-spacing: 2px;
+}
+
+header input {
+  padding: 8px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px;
+  background: #222;
+}
+
+.categories button {
+  padding: 8px 12px;
+  background: crimson;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.movie-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+}
+
+.movie-card {
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-details {
+  padding: 20px;
+}
+
+.downloads .btn-download {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 10px 20px;
+  background: linear-gradient(to right, red, orange);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
